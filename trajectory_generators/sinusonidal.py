@@ -4,6 +4,7 @@ from trajectory_generators.trajectory_generator import TrajectoryGenerator
 
 class Sinusoidal(TrajectoryGenerator):
     def __init__(self, A, omega, fi):
+        self.__name__='Sinusoidal'
         self.A = A
         self.omega = omega
         self.fi = fi
